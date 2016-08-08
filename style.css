@@ -1,0 +1,147 @@
+/* secciones*/
+#img1{
+  height: 100px;
+  /*width: 70px; */
+  background-size: 100% 100%;
+  background-image:url(img/icanuxx.jpg); 
+}
+/*  slider  */
+#your1{
+  
+  height: 450px;
+  background-image: url(img/icanuxx.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#your2{height: 450px;
+  background-image: url(img/icanuxx.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#your3{height: 450px;
+  background-image: url(img/icanuxx.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.container-principal{
+ /*background-image: url(image/mue.jpg);  */
+ background-color: red;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+/* fondo degradado 
+.font-registro{
+  width: 100%;
+  background-image: url(img/icanuxx.jpg);
+  background-size: 100% 100%;
+  height: 609px;
+}
+.font-registro-white{
+background-color: rgba(255, 255, 255, 0.8);
+background-size: 100%;
+height: 609px;
+width: 100%;
+}
+
+*/
+/* secciones */
+.img_sec{
+  height: 250px;
+  width: 330px;
+  background-image: url(img/icanuxx.jpg);
+  background-size: 100% 100%;
+}
+
+/*main*/
+#container_main{
+  
+  height: 500px;
+  width: 100px;
+  background: red;
+}
+
+/* miembros activos*/
+#info{
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+#info .contenedor{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content:center;
+
+}
+.info-pet{
+  margin: 20px;
+}
+.info-pet img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 7px solid #fff;
+}
+
+h3,h4{
+  color: white;
+  text-align: center;
+
+}
+/*video*/
+video{
+  position: fixed;
+
+  min-width: 100%;
+  min-height: 100%;
+
+  /*todo este codigo es para q el video siempre se vea de manera central*/
+  top: 50%;
+  left: 50%;
+  
+  transform: translateX(-50%) translateY(-50%);
+  /*este codigo es para  q se vayya elñ video al fondo */
+  z-index: -1;
+  /* filtro para colocar el video en blanco y negro */
+   -webkit-filter : grayscale(100%);
+
+}
+.main{
+  /*width: 40%;*/
+  background: rgba(0,0,0,0.5);
+  color: #fff;
+  /*padding: 20px;*/
+/*  margin: 5px;*/
+}
+/*   add nav*/
+/*  icon of nav*/
+#icon_nav{
+  height: 40px;
+  width: 40px;
+  margin-left: 30px;
+  margin-top: -10px;
+
+}
+.icono_p{
+
+  margin-top: -30px;
+  margin-left: 100px;
+}
+
+/*animaciones*/
+.retraso_1{
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay:1s;
+  animation-delay:1s;
+}
+
+.retraso_2{
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay:2s;
+  animation-delay:2s;
+}
+.retraso_3{
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay:3s;
+  animation-delay:3s;
+}
